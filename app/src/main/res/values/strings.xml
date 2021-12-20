@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">reto5</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Gofoot</string>
+    <string name="nav_header_subtitle">Restaurante Comidas Rapidas</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_menu">MENU</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_sucursales">Sucursales</string>
+    <string name="menu_gallery">Productos</string>
+    <string name="menu_slideshow">Favoritos</string>
+    <string name="menu_servicios">Servicios</string>
+    <string name="favfastpizza1">favoritos</string>
+    <string name="fastfoodtab">FastFood</string>
+    <string name="tradicionales">Tradicionales</string>
+
+
+    <string name="Descripcion">Hamburguesa</string>
+    <string name="Precio">$17.800</string>
+    <string name="DescripcionItem2">Chorizo</string>
+    <string name="PrecioItem2">$12.000</string>
+    <string name="Descripcionitem3">Costillas</string>
+    <string name="PrecioItem3">$25.000</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+</resources>

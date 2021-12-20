@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imagP1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/chirizo" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <TextView
+                    android:id="@+id/nombreP1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre" />
+
+                <TextView
+                    android:id="@+id/descripcionP1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Descripcion" />
+
+                <TextView
+                    android:id="@+id/precioP1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Precio" />
+
+                <Button
+                    android:id="@+id/borrarFav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Borrar" />
+
+                <Button
+                    android:id="@+id/pedirfav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pedir" />
+            </LinearLayout>
+
+</LinearLayout>
