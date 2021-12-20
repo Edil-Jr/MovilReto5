@@ -68,6 +68,7 @@ public class Fragmen_Servicios extends Fragment {
      * @return A new instance of fragment Fragmen_Servicios.
      */
     // TODO: Rename and change types and number of parameters
+    /*
     public static Fragmen_Servicios newInstance(String param1, String param2) {
         Fragmen_Servicios fragment = new Fragmen_Servicios();
         Bundle args = new Bundle();
@@ -76,7 +77,7 @@ public class Fragmen_Servicios extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
-
+*/
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,8 +88,8 @@ public class Fragmen_Servicios extends Fragment {
 
 
 
-
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -96,10 +97,22 @@ public class Fragmen_Servicios extends Fragment {
         // Inflate the layout for this fragment
 
         v = inflater.inflate(R.layout.fragment_servicios, container, false);
-    //    listaServicios = (ListView) v.findViewById(R.id.mostrarLista);
+        //listaServicios = (ListView) v.findViewById(R.id.mostrarLista);
        // adaptador = new ServicioAdapter(, getContext());
 
      //   listaServicios.setAdapter(adaptador);
+
+        Button btget = (Button) v.findViewById(R.id.botonGET);
+        btget.setOnClickListener(new View.OnClickListener(){
+
+             @Override
+             public void onClick(View v) {
+                 volleyGET();
+             }
+         });
+
+
+
         return v;
     }
 

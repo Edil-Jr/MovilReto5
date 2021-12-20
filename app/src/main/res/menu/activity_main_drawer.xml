@@ -13,7 +13,7 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_sucursales" />
         <item
-            android:id="@+id/nav_sucursales"
+            android:id="@+id/nav_servicios"
             android:icon="@android:drawable/presence_away"
             android:title="@string/menu_servicios" />
         <item
